@@ -46,43 +46,73 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+# Step 1:
+Create a new file in quartus II.
 
+# Step 2:
+Module Declaration. Module should have the file name.
 
+# Step 3:
+Use begin declaration to define the functionality of logic circuits.
 
-### PROGRAM 
-/*
+# Step 4:
+Within begin use if and else statements.
+
+# Step 5:
+At the end give endmodule.
+
+# Step 6:
+Run the program and choose RTL viewer to get RTL realization.
+
+# PROGRAM
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:VAISHNAVI S
+RegisterNumber: 212222230165
+```
+# UP COUNTER:
+```
+module UC(input CLK,input reset,output[0:3]counter);
+reg[0:3]counter_up;
+always@(posedge CLK or posedge reset)
+begin 
+if(reset)
+counter_up<=4'd0;
+else
+counter_up<=counter_up+4'd1;
+end
+assign counter=counter_up;
+endmodule
+```
+# DOWN COUNTER:
+```
+module dc(input CLK,input reset,output[0:3]counter);
+reg[0:3]counter_down;
+always@(posedge CLK or posedge reset)
+begin 
+if(reset)
+counter_down<=4'd0;
+else
+counter_down<=counter_down -4'd1;
+end
+assign counter=counter_down;
+endmodule
+```
+# RTL LOGIC UP COUNTER AND DOWN COUNTER
+# UP COUNTER:
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/ba5eccfa-5d0c-459d-b444-b97e514ceccb)
+# DOWN COUNTER:
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/0415430d-4590-4bae-9cfe-78cdd2d4c71d)
+# TIMING DIGRAMS FOR COUNTER
+# UP COUNTER:
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/9354949a-9ad9-49a1-a374-2d66d5a0d167)
+# DOWN COUNTER:
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/9e5334d5-3957-48d1-806b-7bebc52e4aa1)
 
-
-
-
-
-
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
-
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
+# TRUTH TABLE
+# UP COUNTER:
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/a4ad21ff-8b79-4c9e-bca6-7a1b8cf0e397)
+# DOWN COUNTER:
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/48511d4f-5c01-477c-91e7-b8822ab1cdd6)
 ### RESULTS 
+The 4 bit up and down counters has been implemented and validated the functionality.
