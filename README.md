@@ -99,14 +99,18 @@ endmodule
 ```
 # RTL LOGIC UP COUNTER AND DOWN COUNTER
 # UP COUNTER:
-![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/ba5eccfa-5d0c-459d-b444-b97e514ceccb)
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/7fbb82e5-9d22-4157-95e0-ed36e4fc00fa)
+
 # DOWN COUNTER:
-![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/0415430d-4590-4bae-9cfe-78cdd2d4c71d)
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/4ba343b3-6aca-4e48-8067-c4815c518691)
+
 # TIMING DIGRAMS FOR COUNTER
 # UP COUNTER:
-![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/9354949a-9ad9-49a1-a374-2d66d5a0d167)
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/7ce1d2a2-f816-478c-9c9a-0e4d06304c08)
+
 # DOWN COUNTER:
-![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/9e5334d5-3957-48d1-806b-7bebc52e4aa1)
+![image](https://github.com/Vaishnavi-saravanan/Exp-7-Synchornous-counters-/assets/118541897/8584ffd9-8c4e-4aa0-a223-599c62432b29)
+
 
 # TRUTH TABLE
 # UP COUNTER:
